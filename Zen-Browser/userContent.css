@@ -1,0 +1,108 @@
+:root {
+    --zen-colors-primary: #da7272 !important;
+    --zen-colors-secondary: #09090b !important;
+    --zen-colors-tertiary: #09090b !important;
+    --zen-colors-border: border: 1px solid rgba(255, 255, 255, 0.1);
+    --zen-dialog-background: #09090b !important;
+}
+
+#navigator-toolbox {
+    background-color: var(--zen-colors-secondary) !important;
+}
+
+#zen-appcontent-navbar-container {
+    background-color: var(--zen-colors-secondary) !important;
+}
+
+#navigator-toolbox:not([zen-sidebar-expanded="true"]) {
+    & #titlebar {
+        background-color: var(--zen-colors-secondary) !important;
+    }
+}
+
+
+#navigator-toolbox {
+    background-color: var(--zen-colors-secondary) !important;
+}
+
+
+#tabbrowser-tabs {
+    & .tabbrowser-tab {
+        #tabbrowser-tabs &:not([zen-essential="true"]) {
+            &:is([selected], [multiselected], [visuallyselected]) .tab-background {
+                border: 1px solid rgba(255, 255, 255, 0.1) !important;
+                background: var(--zen-colors-secondary) !important;
+            }
+        }
+    }
+}
+
+.tab-background[selected=""]::after {
+    background: var(--zen-colors-primary) !important;
+}
+
+
+#urlbar,
+#searchbar {
+    :root[lwt-toolbar-field="dark"] & {
+        background: var(--zen-colors-secondary) !important;
+        border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    }
+}
+
+#tracking-protection-icon-container,
+#page-action-buttons {
+    display: none;
+}
+
+#urlbar-background {
+    background-color: var(--zen-colors-secondary) !important;
+}
+
+
+::selection {
+    background-color: var(--zen-colors-primary) !important;
+    color: #fff !important;
+}
+
+::-moz-selection {
+    background-color: var(--zen-colors-primary) !important;
+    color: #fff !important;
+}
+
+#zen-current-workspace-indicator,
+#tabs-newtab-button {
+    display: none !important;
+}
+
+#navigator-toolbox:not([zen-sidebar-expanded="true"]) {
+    & #zen-sidebar-top-buttons {
+        margin-top: 11px !important;
+    }
+}
+
+
+.identity-box-button,
+#tracking-protection-icon-container {
+    outline: none !important;
+    outline-offset: none !important;
+}
+
+
+
+:root:not([zen-single-toolbar="true"]) #zen-appcontent-wrapper {
+    background-color: var(--zen-colors-secondary) !important;
+}
+
+
+* {
+    -ms-overflow-style: none !important;
+    /* Internet Explorer and Edge */
+    scrollbar-width: none !important;
+    /* Firefox */
+}
+
+*::-webkit-scrollbar {
+    display: none !important;
+    /* Chrome, Safari, and Opera */
+}
