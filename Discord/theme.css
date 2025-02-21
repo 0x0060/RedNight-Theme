@@ -1,0 +1,109 @@
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+
+:root {
+    --vspr-bg-base: 9, 9, 11;
+    --vspr-bg-subtle: 35, 35, 40;
+    --vspr-fg-base: 255, 255, 255;
+    --vspr-fg-subtle: 160, 160, 160;
+    --vspr-accent: 218, 114, 114;
+    --vspr-fg-err: 218, 114, 114;
+    --vspr-fg-suc: 218, 114, 114;
+
+    --settingsicons: 1;
+    --font: "Geist", "gg sans", "Noto Sans";
+
+    --accentcolor: 218, 114, 114;
+    --accentcolor2: 218, 114, 114;
+    --linkcolor: 218, 114, 114;
+    --mentioncolor: 218, 114, 114;
+    --successcolor: 218, 114, 114;
+    --warningcolor: 218, 114, 114;
+    --dangercolor: 218, 114, 114;
+
+    --textbrightest: 255, 255, 255;
+    --textbrighter: 190, 190, 190;
+    --textbright: 180, 180, 180;
+    --textdark: 180, 180, 180;
+    --textdarker: 140, 140, 140;
+    --textdarkest: 126, 126, 126;
+
+    --backgroundaccent: 9, 9, 11;
+    --backgroundprimary: 9, 9, 11;
+    --backgroundsecondary: 9, 9, 11;
+    --backgroundsecondaryalt: 9, 9, 11;
+    --backgroundtertiary: 9, 9, 11;
+    --backgroundfloating: 9, 9, 11;
+
+    --font-code: "Geist Mono", monospace !important;
+}
+
+
+.themedBackground__6b1b6 {
+    background: transparent;
+}
+
+.channelTextArea__2e60f {
+    margin-bottom: 12px;
+}
+
+.scrollerSpacer__9cd32 {
+    height: 16px;
+}
+
+.sansAttachButton__996a4 {
+    padding-left: 0;
+}
+
+.input__848cd {
+    background: transparent;
+}
+
+.quickswitcher_a3d29a {
+    padding: 0;
+}
+
+.scroller__52ae7 {
+    margin-right: 0;
+}
+
+.protip__84833 {
+    padding-inline: 10px;
+}
+
+.hljs-selector-class,
+.hljs-number,
+.hljs-meta,
+.hljs-title,
+.hljs-literal,
+.hljs-built_in,
+.hljs-name,
+.hljs-section {
+    color: #5a2e2e !important;
+}
+
+.hljs-attribute,
+.hljs-title.class_,
+.hljs,
+.hljs-attr,
+.hljs-variable {
+    color: #ffffff !important;
+}
+
+.hljs-selector-pseudo,
+.hljs-keyword,
+.hljs-type {
+    color: #a0a0a0 !important;
+}
+
+.hljs-string {
+    color: #da7272 !important;
+}
+
+.banner__68edb {
+    display: none;
+}
+
+.quote__122e4 {
+    background-color: rgb(var(--accentcolor));
+}
